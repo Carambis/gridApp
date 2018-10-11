@@ -1,5 +1,14 @@
 .bor {
-  background-image: url("image1.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  /*width: 200px;*/
+  /*height: auto;*/
+  border: solid gray 3px;
+  border-radius: 100px;
+}
+
+.margin {
+  margin-top: 1%;
+}
+
+.btngroup{
+  margin-top: 200px;
 }

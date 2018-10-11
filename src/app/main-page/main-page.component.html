@@ -1,17 +1,28 @@
 <app-header></app-header>
 <h3 class="text-center" style="margin-top: 30px">Баланс</h3>
-<div class="row" style="margin-top: 3%" >
-  <div class="col-lg-6 col-md-6 col-sm-12">
-    <div class="text-center bor">
-      <div>6d</div>
-      <div>Отпуск</div>
+<div class="container" style="margin-top: 3%">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 margin">
+      <div class="text-center bor">
+        <h1>6d</h1>
+        <h3>Отпуск</h3>
+      </div>
     </div>
-  </div>
-  <div class="col-lg-6 col-md-6 col-sm-12">
-    <div class="text-center bor">
-      <div>2d</div>
-      <div>По болезни</div>
+    <div class="col-lg-6 col-md-6 col-sm-12 margin">
+      <div class="text-center bor align-content-center">
+        <h1>2d</h1>
+        <h3>По болезни</h3>
+      </div>
     </div>
   </div>
 </div>
-<app-footer></app-footer>
+<div class="btngroup text-center">
+  <div class="row">
+    <div class="col-6 text-right">
+      <button class="btn btn-success">Взять отпуск</button>
+    </div>
+    <div class="col-6 text-left">
+      <button class="btn btn-primary">По болезни</button>
+    </div>
+  </div>
+</div>
