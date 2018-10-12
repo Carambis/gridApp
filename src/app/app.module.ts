@@ -6,6 +6,7 @@ import {MainPageComponent} from './main-page/main-page.component';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {SecongPageComponent} from './secong-page/secong-page.component';
+import {ThirdPageComponent} from './third-page/third-page.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {SecongPageComponent} from './secong-page/secong-page.component';
     MainPageComponent,
     HeaderComponent,
     FooterComponent,
-    SecongPageComponent
+    SecongPageComponent,
+    ThirdPageComponent
   ],
   imports: [
     BrowserModule,
